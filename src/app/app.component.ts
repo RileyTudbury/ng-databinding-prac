@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'databinding';
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
+
 
   onIntervalFired(firedNumber: number) {
     console.log(firedNumber)
